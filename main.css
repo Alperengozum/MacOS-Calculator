@@ -1,0 +1,123 @@
+table {
+    border-collapse: collapse;
+    background: #2B3237;
+}
+#Table-bottom {
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+}
+button {
+    min-height: 40px;
+    min-width: 48px;
+    max-width: 40px;
+    text-align: center;
+    background: #606465;
+    color: aliceblue;
+    border-color: #606465 ;
+    border-style: none;
+    font-size: 20px;
+}
+th {border-width: 20px !important;}
+
+button:hover {
+    background: cadetblue;
+
+
+}
+#Zero {
+
+    min-width: 98px;
+    border-bottom-left-radius: 5px;
+}
+#Result {
+    border-top:10px solid #2C3236;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+
+    margin-bottom: 0px;
+    margin-top:0px;
+    background: #2C3236;
+    color: aliceblue;
+    text-align: right;
+    font-family: "Arial";
+    font: caption;
+    padding-right: 5px;
+    max-width: 195px;
+    max-height: 60px;
+    min-height: 60px;
+}
+#ResultNumber {
+    font-size: 40px;
+    margin:auto;
+    margin-top: 5px;
+}
+
+
+#DarkGray {
+    background: #424448;
+    border: #424448;
+}
+#DarkGray:hover {
+    background: darkgray;
+}
+
+#Orange{
+    background: #FE9F09;
+    border: #FE9F09;
+
+}
+#Orange:hover {
+    background: #fe6b09;
+}
+
+#Buttons {
+    margin:auto;
+    margin-bottom: 0px;
+    max-height: 0px !important;
+    text-align: left;
+    color: #606060;
+    border-style: none;
+
+
+}
+
+.CloseButton {
+    margin:auto;
+    padding-left: 5px;
+    margin-top: 5px;
+
+    margin-left: 8px;
+    min-height: 12px;
+    max-height: 12px;
+    min-width: 12px;
+    max-width: 12px;
+    text-align: left;
+    background: #606465;
+    color: #424448;
+    border-color: #606465 ;
+    border-style: none;
+    border-radius: 50%;
+    font-size: 10px;
+}
+
+#Close{
+    margin-left: -2.3px;
+    margin-top: 0px;
+
+}
+
+#Minimize{
+    margin-left: -4px;
+    margin-top: -0.2px;
+
+}
+
+#Expand{
+    margin-left: -2px;
+    margin-top: 0px;
+
+}
+
+#Calculator {
+    position: absolute;
+}

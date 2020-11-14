@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<!--suppress ALL -->
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="main.css">
+    <meta charset="UTF-8">
+    <title>Calculator</title>
+
+</head>
+<body>
+<div id="Calculator">
+    <p id="Buttons">
+        <button class="CloseButton"   onmouseover="MouseInThere()" onmouseout="MouseIsEscaped()"
+                style="background: #ff321f"  onclick="Close()"><div id="Close"></div></button>
+        <button class="CloseButton"   onmouseover="MouseInThere()" onmouseout="MouseIsEscaped()"
+                style="background: #efce51" onclick="Minimize()"><div id="Minimize"></div></button>
+        <button class="CloseButton"  onmouseover="MouseInThere()" onmouseout="MouseIsEscaped()"
+                style="background: #53C21F" ><div id="Expand" ></div></button>
+    </p>
+    <h1 id="Result"><div id="ResultNumber" >0</div></h1>
+    <table>
+        <tr>
+            <th><button id="DarkGray"  onclick="Clear()">C</button></th>
+            <th><button id="DarkGray" onclick="Change()">+/-</button> </th>
+            <th><button id="DarkGray" onclick="Percent()">%</button></th>
+            <th><button id="Orange" onclick="Divide()">/</button></th>
+        </tr>
+        <tr>
+            <th><button onclick="SendNumber(7)">7</button></th>
+            <th><button onclick="SendNumber(8)">8</button> </th>
+            <th><button onclick="SendNumber(9)">9</button></th>
+            <th><button id="Orange" onclick="Multiple()">x</button></th>
+        </tr>
+        <tr>
+            <th><button onclick="SendNumber(4)">4</button></th>
+            <th><button onclick="SendNumber(5)">5</button> </th>
+            <th><button onclick="SendNumber(6)">6</button></th>
+            <th><button id="Orange" onclick="Minus()">—</button></th>
+        </tr>
+        <tr>
+            <th><button onclick="SendNumber(1)">1</button></th>
+            <th><button onclick="SendNumber(2)">2</button> </th>
+            <th><button onclick="SendNumber(3)">3</button></th>
+            <th><button id="Orange" onclick="Add()">+</button></th>
+        </tr>
+    </table>
+
+    <table id="Table-bottom">
+        <tr>
+            <th id="Zero" ><button id="Zero"  onclick="SendNumber(0)">0</button></th>
+
+            <th><button onclick="Fraction()">,</button></th>
+            <th ><button id="Orange" style= "border-bottom-right-radius: 5px" onclick="SendResult()">=</button></th>
+        </tr>
+
+
+    </table>
+    <script src="Javascript/main2.js"></script>
+
+    </div>
+
+</body>
+</html>
